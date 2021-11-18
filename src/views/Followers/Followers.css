@@ -1,0 +1,13 @@
+.content {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 20px;
+}
+.items{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
