@@ -19,7 +19,7 @@ function App() {
         <Followers/>
       </Route>
       </MainLayout>
-    </Switch>
+    </Switch> 
     <Switch>
     <Route path ="*">
       </Route>

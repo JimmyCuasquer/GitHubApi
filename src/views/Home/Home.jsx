@@ -17,7 +17,6 @@ const Home = () => {
         const API =  `https://api.github.com/users/${user}`;
         const response = await fetch(API)
         const result = await response.json()
-        console.log(result)
         setData(result)
         setLoading(false)
     }

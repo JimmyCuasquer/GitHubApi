@@ -5,7 +5,6 @@ import "../../views/Followers/Followers.css"
 const Followers = () => {
 
     const {data} =useParams();
-    console.log(data);
 
     const [followers, setFollowers] =useState(null)
     
@@ -14,7 +13,6 @@ const Followers = () => {
         const response = await fetch(API)
         const result = await response.json()
         setFollowers(result)
-        console.log(result);
     }
 
     useEffect(() =>{

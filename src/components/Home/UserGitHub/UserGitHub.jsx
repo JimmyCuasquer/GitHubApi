@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { Card, Button } from 'react-bootstrap'
-import "../../../components/Home/UserGitHub/UserGitHub.css";
+
+import { Card, Button } from 'react-bootstrap';
+import "./../../../components/Home/UserGitHub/UserGitHub.css"
+
+
 const UserGitHub = ({avatar,github_name,name, public_repos,followers,following}) => {
-    console.log(name);
     return (
         <>
         <Card >
